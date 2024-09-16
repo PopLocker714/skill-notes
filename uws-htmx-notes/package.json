@@ -1,0 +1,28 @@
+{
+  "name": "uws-htmx-notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.48.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 "
+  },
+  "ssr": [
+    "node 18"
+  ],
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.4",
+    "@types/node": "^22.5.5"
+  }
+}
